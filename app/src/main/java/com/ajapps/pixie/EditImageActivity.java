@@ -50,11 +50,9 @@ import ja.burhanrashid52.photoeditor.shape.ShapeBuilder;
 import ja.burhanrashid52.photoeditor.shape.ShapeType;
 
 public class EditImageActivity extends BaseActivity implements OnPhotoEditorListener,
-        View.OnClickListener,
-        PropertiesBSFragment.Properties,
-        ShapeBSFragment.Properties,
-        EmojiBSFragment.EmojiListener,
-        StickerBSFragment.StickerListener, EditingToolsAdapter.OnItemSelected, FilterListener {
+        View.OnClickListener, PropertiesBSFragment.Properties, ShapeBSFragment.Properties,
+        EmojiBSFragment.EmojiListener, StickerBSFragment.StickerListener,
+        EditingToolsAdapter.OnItemSelected, FilterListener {
 
     private static final String TAG = EditImageActivity.class.getSimpleName();
     public static final String ACTION_NEXTGEN_EDIT = "action_nextgen_edit";
